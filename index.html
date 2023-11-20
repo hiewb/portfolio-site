@@ -82,20 +82,6 @@
           <li class="contact-item">
 
             <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+16463346886" class="contact-link">+1 (646) 334-6886</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
               <img src = "assets/images/cap_icon.png" width = 30px height = auto>
             </div>
 
@@ -420,17 +406,17 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Coding Projects</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Project Team Projects</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Game Development</button>
               </li>
-
+              
             </ul>
 
           </div>
@@ -627,11 +613,26 @@
           </figure>
         </section>
 
+        <h3 class="h3 form-title">Reach out to me :&#41;</h3>
+
         <section class="contact-form">
 
-          <h3 class="h3 form-title">Reach out to me :&#41;</h3>
-          
-          <p class = "contact-text"> Email: hiewb@umich.edu </p>
+          <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <div class="input-wrapper">
+              <input type="text" id="name" name="name" class="form-input" placeholder="Name" required data-form-input>
+
+              <input type="email" id = "email" name="mail" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <br>
+            <textarea id = "message" name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <br>
+            <button class="form-btn" type="submit"> 
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
           <p class = "contact-text"> Linkedin: <a class = "contact-text" href="https://www.linkedin.com/in/bianca-hiew/" class="social-link"> https://www.linkedin.com/in/bianca-hiew/ </a> </p>
 
         </section>
